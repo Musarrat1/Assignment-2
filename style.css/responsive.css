@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px){
+    .nav-hamburger-menu{
+        display: block;
+    }
+    .btn>button{
+        display: none;
+    }
+    .nav-main{
+        flex-direction: row;
+     }
+}
+@media screen and (max-width: 800px){
+}
