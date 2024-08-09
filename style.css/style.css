@@ -56,22 +56,18 @@
 }
 .span-shape{
     font-style: italic;
-    line-height: 93.60px;
     font-weight: 900;
 }
 .Title-paragraph{
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
     width: 500px;
-
 }
 /*Title of website end*/
-.btn-title{
-    gap: 10px;
-}
 /*button of  title description*/
 .btn-join{
     color: white;
+    font-weight: 400;
     padding: 10px;
     border: none;
 }
@@ -82,23 +78,42 @@
     padding: 10px;
 }
 /*button ends  of title description*/
+.img{
+    justify-content: right;
+    align-items: end;
+}
+
+
+
+
+
+
 .btn-detail1{
     width: 140px;
     padding: 10px;
     background-color:  rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: last baseline;
+}
+.btn-detail1 .work-video , .btn-detail1 .work-des{
+    background: transparent;
 }
 .btn-detail1 .work-video{
     font-size: 2rem;
     color: white;
-    border: none;
     font-weight: bold;
+    margin: 0;
 }
 .btn-detail1 .work-des{
     font-size: 0.81rem;
     color: rgba(255, 255, 255, 0.65);
     font-weight: normal;
+    margin-top: 5px;
 }
 
 .btn-detail2{
