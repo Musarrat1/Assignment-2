@@ -30,7 +30,6 @@
     border-radius: 50px;
      position: relative;
      padding:10px;
-
 }
 .btn-head{
         color: white;
@@ -40,11 +39,6 @@
         border-radius: 6px;
         border:none;
 
-}
-.btn-hm{
-    background-color: #E6533C;
-    border-radius: 20px;
-    padding: 10px;
 }
 .nav-hamburger-menu{
    display: none;
@@ -60,18 +54,36 @@
 }
 .Title-paragraph{
     font-size: 1rem;
+    display: flex;
+    flex-direction: column;
     color: rgba(255, 255, 255, 0.5);
     width: 500px;
 }
 /*Title of website end*/
 /*button of  title description*/
 .btn-join{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    gap: 10px;
     color: white;
-    font-weight: 400;
+    font-weight: normal;
     padding: 10px;
     border: none;
 }
-.btn-download{
+.btn-join .btn-hm , .btn-join .btn-download{
+    padding: 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+.btn-join .btn-hm{
+    background-color: #E6533C;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn-join .btn-download{
     color: white;
     border: 2px solid white;
     border-radius: 20px;
