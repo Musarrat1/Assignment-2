@@ -21,6 +21,17 @@
     .nav-main{
         flex-direction: row;
      }
+     .fitness-image{
+        width: 100%;
+       
+     }
+     .img-t >div{
+        flex-direction: column;
+     }
+     .div-1st{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 @media screen and (max-width: 800px){
 }

@@ -1,12 +1,23 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
 *{
     box-sizing: border-box;
     background-color:black;
     box-shadow: 4px 4px 10px rgba(119, 119, 119, 0);
 }
-
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.header-section{
+    background-color: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7) ,url(images/plain-black-background-02fh7564l8qq4m6d.jpg));
+}
 .display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display{
     display: flex;
 }
 .main{
@@ -16,7 +27,9 @@
 
 .nav-main{
     border: 1px solid black;
+    border-radius: 40px;
     color: black;
+    padding: 20px 50px;
     justify-content: space-between;
 }
 .head-line{
@@ -28,17 +41,24 @@
 .btn{
     border: 1px solid rgba(128, 128, 128, 0.247);
     border-radius: 50px;
-     position: relative;
-     padding:10px;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
 }
 .btn-head{
-        color: white;
-        padding: 5px;
-        margin: 20px 20px;
-        margin-left: 5px;
-        border-radius: 6px;
-        border:none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    border:none;
 
+}
+.btn-hm{
+    color: white;
+    border: none;
+    background-color: #E6533C;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 .nav-hamburger-menu{
    display: none;
@@ -48,10 +68,12 @@
     font-size: 4rem;
     font-weight: 600;
 }
-.span-shape{
+.playwrite-dk-uloopet-shape {
+    font-family: "Playwrite DK Uloopet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
     font-style: italic;
-    font-weight: 900;
-}
+  }
 .Title-paragraph{
     font-size: 1rem;
     display: flex;
@@ -63,8 +85,6 @@
 /*button of  title description*/
 .btn-join{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     max-width: 400px;
     gap: 10px;
@@ -73,44 +93,63 @@
     padding: 10px;
     border: none;
 }
-.btn-join .btn-hm , .btn-join .btn-download{
+.btn-join .btn-home , .btn-join .btn-download{
     padding: 10px;
     border-radius: 20px;
     white-space: nowrap;
+    text-align: center;
 }
-.btn-join .btn-hm{
+.btn-join .btn-home{
     background-color: #E6533C;
-    border-radius: 20px;
     padding: 10px;
 }
 .btn-join .btn-download{
     color: white;
     border: 2px solid white;
-    border-radius: 20px;
     padding: 10px;
 }
 /*button ends  of title description*/
-.img{
-    justify-content: right;
-    align-items: end;
+.t{
+ display: block;
+ width: 400px;
 }
+.fitness-image{
+margin-left: 500px;
 
-
-
-
-
-
+}
+.img-t{
+    margin-right: 580px;
+   position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.btn-500-align{
+    margin-top: -500px;
+    margin-left:750px;
+    margin-bottom:200px;
+    text-align: center;
+}
+.btn-350-align{
+    margin-left: 420px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
 .btn-detail1{
+  
+    position: absolute;
+    display: flex;
     width: 140px;
     padding: 10px;
     background-color:  rgba(255, 255, 255, 0.10);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
-    text-align: left;
     display: flex;
+    position: relative;
     flex-direction: column;
-    justify-content: left;
-    align-items: last baseline;
+    justify-content:center;
+    align-items: center;
 }
 .btn-detail1 .work-video , .btn-detail1 .work-des{
     background: transparent;
@@ -118,8 +157,8 @@
 .btn-detail1 .work-video{
     font-size: 2rem;
     color: white;
-    font-weight: bold;
-    margin: 0;
+    font-weight: bolder;
+   
 }
 .btn-detail1 .work-des{
     font-size: 0.81rem;
@@ -127,17 +166,17 @@
     font-weight: normal;
     margin-top: 5px;
 }
-
-.btn-detail2{
+ .btn-detail2{
     width: 140px;
     padding: 10px;
     border:1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
+    display: flex;
     background-color: rgba(48, 48, 48, 0.54);
     color: #FAFAF9;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
 }
 .info-350 .btn-350{
     font-size: 1.5rem;
@@ -169,3 +208,41 @@
 
 }
 
+.Your-habit{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+    color:white;
+}
+.habit-pragraph{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+
+}
+.img-1st{
+    width:200px;
+    border-radius: 200px;
+}
+.img1st-movement{
+  font-size: 1rem;
+  color: white;
+  margin-left: 50px;
+}
+.img1st-pragraph{
+    font-size: 0.81rem;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 350px;
+    margin-left: 10px;
+}
+.div-1st{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 80px;
+    align-items: center;
+}
+.div-1st-details{
+    
+}
