@@ -326,6 +326,9 @@ margin-left: 500px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+.feet{
+    padding: 20px;
+}
 .feet .head-line-foot{
     font-size: 2rem;
     font-style: italic;
@@ -354,9 +357,10 @@ margin-left: 500px;
     justify-content: space-around;
 }
 .div-footer{
-    gap: 30px;
-    margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.1);
+}
+.div-get-start{
+    gap: 10px;
 }
 .line{
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -436,4 +440,25 @@ th,td{
     background-color: #E6533C;
     margin-top: 20px;
     border-radius: 30px;
+}
+.section-client-review{
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 20px;
+}
+.Client-review{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.client-describtion{
+    font-size: 0.81rem;
+    color:rgba(255, 255, 255, 0.5);
+    max-width: 500px;
+}
+.k15{
+ font-size: 3rem;
+ color: white;
+ font-weight: bold;
 }

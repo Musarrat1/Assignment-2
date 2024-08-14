@@ -92,6 +92,9 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+   .section-client-review{
+  flex-direction: column;
+   }
 }
 @media screen and (max-width: 800px){
     
