@@ -246,3 +246,194 @@ margin-left: 500px;
 .div-1st-details{
     
 }
+
+/*card part*/
+.card-section{
+   margin-top: 30px;
+}
+.card-main{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 40px;
+}
+.card{
+    display: flex;
+    background-color: rgba(34, 34, 34, 1);
+    justify-content: space-between;
+}
+.card-img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+.Run{
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+
+
+}
+.card-paragraph{
+    font-size: 0.81rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.card-join{
+    background-color: #E6533C;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+
+}
+/*Bmi*/
+.BMI-t-cal{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.BMI-para{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.name-trainer{
+    position: relative;
+    bottom:100px;
+    font-size: 1rem;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+.trainer1st{
+    width: 280px;
+    height: 250px;
+    border-radius: 30px;
+}
+.card-trainer{
+    gap: 0;
+    margin-left: 100px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.feet .head-line-foot{
+    font-size: 2rem;
+    font-style: italic;
+    color: #E6533C;
+    font-weight: bold;
+}
+.div-get-start{
+    background-color: black;
+}
+.feet .footer-para{
+    background-color: transparent ;
+    color:rgba(255, 255, 255, 0.5);
+    max-width: 400px;
+}
+.footer-started{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+.list-footer{
+    color:rgba(255, 255, 255, 0.5);
+    list-style: none;
+}
+.footer-main{
+    justify-content: space-around;
+}
+.div-footer{
+    gap: 30px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.line{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.last-text{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+}
+/*bmi card */
+.BMI_CARD_MAIN{
+    background-color:rgba(34, 34, 34, 1);
+    padding: 1rem 0rem;
+    margin: 0;
+    
+}
+.background{
+    background-color: rgba(34, 34, 34, 1);
+}
+.BMI_CARD_MAIN>div{
+    margin-left: 100px;
+}
+.BMI-Chart{
+    color: white;
+    font-weight: bold;
+    display:grid;
+    justify-content: space-between;
+}
+.card-calculator{
+    
+}
+table {
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+}
+tr{
+    background-color:rgba(34, 34, 34, 1);
+    color:rgba(255, 255, 255, 0.5);
+}
+th{
+    color: white;
+}
+.bmi-form{
+    width: 200px;
+    margin-bottom: 10px;
+    height: 40px;
+   
+}
+.Height{
+    color: gray;
+    border:1px solid gray;
+    border-radius: 5px; 
+    padding: 10px;
+   
+}
+.stracture{
+    gap: 10px;
+}
+.align-item{
+justify-content: space-between;
+}
+th,td{
+    border: 1px solid gray;
+    text-align: center;
+}
+.factor{
+    width: 380px;
+    height: 40px;
+}
+.btn-calculator{
+    padding: 10px 30px;
+    color: white;
+    background-color: #E6533C;
+    margin-top: 20px;
+    border-radius: 30px;
+}
